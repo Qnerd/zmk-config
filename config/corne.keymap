@@ -43,9 +43,9 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp N1     &kp N2       &kp N3       &kp N4       &kp N5       &kp N6     &kp N7   &kp N8   &kp N9    &kp N0    &kp DE_SS &kp DE_UE
-   &kp F1     &kp F2       &kp F3       &kp F4       &kp F5       &kp F6     &kp F7   &kp F8   &kp F9    &kp F10   &kp F11   &kp F11
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans     &kp LEFT &kp DOWN &kp UP    &kp RIGHT &trans    &trans
+   &kp la(TAB) &kp N1     &kp N2       &kp N3       &kp N4       &kp N5       &kp N6     &kp N7   &kp N8   &kp N9    &kp N0    &kp DE_SS
+   &kp LCTRL   &kp F1      &kp F2       &kp F3       &kp F4       &kp F5       &kp F6     &kp F7   &kp F8   &kp F9    &kp F10   &kp F11   
+   &kp LSHFT   &trans       &trans       &trans       &trans       &trans     &kp LEFT &kp DOWN &kp UP    &kp RIGHT &trans    &kp F12
                                     &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
                         >;
                 };
@@ -57,9 +57,9 @@
 // | SHFT |     |     |     |     |     |   |  _  | "|" |  {  |  }  |  +  |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp DE_EXLM   &kp DE_DQUO  &kp DE_SECT  &kp DE_DLR   &kp DE_PERC  &kp DE_AMPR       &kp DE_SLSH &kp DE_LPRN     &kp DE_RPRN  &kp DE_EQL  &kp DE_QUES &kp DE_GRV
-   &bt BT_CLR    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &kp DE_MINS &kp DE_EQL      &kp DE_LBRC  &kp DE_RBRC &kp DE_BSLS &kp DE_ACUT
-   &kp LSHFT     &kp DE_CIRC  &trans       &trans       &trans       &trans            &kp DE_UNDS &kp DE_PIPE     &kp DE_LCBR  &kp DE_RCBR &kp DE_PLUS &kp DE_TILD
+   &kp DE_EXLM   &kp DE_DQUO  &kp DE_SECT  &kp DE_DLR   &kp DE_PERC  &kp DE_AMPR       &kp DE_SLSH &kp DE_LPRN     &kp DE_RPRN  &kp DE_EQL  &kp DE_QUES &kp DE_UE
+   &bt BT_CLR    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &kp DE_MINS &kp DE_LBRC     &kp DE_RBRC  &kp  &kp DE_BSLS &kp DE_ACUT
+   &kp LSHFT     &kp DE_CIRC  &trans       &trans       &trans       &trans            &kp DE_PIPE &kp DE_LCBR     &kp DE_RCBR  &kp DE_PLUS &kp DE_TILD
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
