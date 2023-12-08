@@ -47,6 +47,6 @@
 #define DE_BSLS RA(DE_SS)   // (backslash)
 #define DE_AT   RA(Q)    // @
 #define DE_EURO RA(E)    // €
-#define DE_TILD RA(PLUS) // ~
+#define DE_TILD RA(RIGHT_BRACKET) // ~
 #define DE_PIPE RA(DE_LABK) // |
 #define DE_MICR RA(M)    // µ
