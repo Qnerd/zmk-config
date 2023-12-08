@@ -25,7 +25,7 @@
 #define DE_SECT LS(N3)    // §
 #define DE_DLR  LS(N4)    // $
 #define DE_PERC LS(N5)    // %
-#define DE_AMPR LS(DE_6)    // &
+#define DE_AMPR LS(N6)    // &
 #define DE_SLSH LS(N7)    // /
 #define DE_LPRN LS(N8)    // (
 #define DE_RPRN LS(N9)    // )
